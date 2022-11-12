@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using std::cout;
+using std::cin;
+int main()
+{
+    setlocale(LC_ALL, "Rus"); //переводится в русский
+    double x; //не целые числа
+    cout << "Введите число:"; //вывод на экран
+    cin >> x; //ввод
+    cout << "Примерно значение тангенса =" << (x + 1.0 / 3.0 * pow(x, 3) + 2.0 / 15.0 * pow(x, 5)); //вывод на экран и решается по формуле
+    return 0; //повторение цикла 0 раз
+}
