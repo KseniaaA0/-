@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Rus"); //перерводится на русский
+
+	int money; //дано
+	int procent; //дано
+	const int YEAR = 12; //известно
+
+   cout << "Введите сумму, которая лежит в банке: " "\n"; //вывод на экран
+   cin >> money; //ввод
+	          cout << "Введите ежемесячный процент, под который заложены ваши деньги: " "\n"; //вывод
+    cin >> procent; //ввод
+
+	for (int i = 0; i < YEAR; i++) //оператор тела цикла
+{
+		money += money / 100.0 * procent; //формула 
+
+		cout << money << "\n"; //вывод
+            }
+}
