@@ -1,0 +1,20 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Rus"); //включается русский
+	int a, b; //дано
+	cout << "Введи числа a и b:" "\n"; //вывод на экран
+	cin >> a >> b; //то что я буду вводить 
+	while (a != b){ //условие, а равняется б или нет 
+		if (a > b){ //проверяет праивльное ли условие 
+			a = a - b; //формула
+			}
+		else { //проверка
+		      b = b - a; //друая формула
+			  }
+		}
+	cout << a; //вывод
+}
