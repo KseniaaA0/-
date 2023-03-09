@@ -1,0 +1,22 @@
+#include<iostream>
+#define SIZE 255
+using namespace std;
+
+int main()
+{
+ int arr[SIZE];
+ int num, i = -1;
+ 
+    do{
+        i++;
+        cout << "введите ваше число - ";
+        cin >> arr[i];
+    }while(arr[i] != -1);
+ 
+ int сумма = 0;
+ for(int m = 0;m < i; m += 1){
+     сумма += arr[m];
+     
+ }
+ cout << "сумма = " << сумма << endl;
+}
