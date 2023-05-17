@@ -29,6 +29,5 @@ int main(){
             else
                 cout<<a<<" "<<b;
         }
-        system("pause");
 return 0;
 }
