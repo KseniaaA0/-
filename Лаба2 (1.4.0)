@@ -23,7 +23,7 @@ int main(){
     seconds = x1 * 60; // считаем секунды
     cout<<seconds<<"\n"; // Вывод секунд
     
-    printf("Угол %d радиан равен - %d градусов, %d минут, %d секунд",ugol_rad,gradus,minuts,seconds); // красиво всё выводим через printf
+    printf("Угол %d радиан равен - %d градусов, %d минут, %d секунд",ugol_rad,gradus,minuts,seconds); 
 
     return 0;
 }
